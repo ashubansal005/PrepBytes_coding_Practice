@@ -1,0 +1,10 @@
+list1 = list()
+T = int(input())
+for i in range(0,T):
+  A = int(input())
+  list1.append(A)
+for i in list1:
+  if (i % 4 == 0) and (i % 100 != 0) or (i % 400 == 0):
+    print('Yes')      
+  else:
+    print('No')
